@@ -20,6 +20,8 @@ public:
 
     void increment()
     {
+        if (increment == 0)
+            cout << "Increment value not set." << endl;
         temperature += incrementVal;
     }
 
