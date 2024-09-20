@@ -22,6 +22,11 @@ public:
     {
         if (increment == 0)
             cout << "Increment value not set." << endl;
+        if (temperature + incrementVal < 273.15)
+        {
+            cout << "Not possible." << endl;
+            return;
+        }
         temperature += incrementVal;
     }
 
