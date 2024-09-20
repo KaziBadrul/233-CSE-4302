@@ -20,13 +20,15 @@ public:
 
     void increment()
     {
-        if (increment == 0)
+        if (incrementVal == 0)
             cout << "Increment value not set." << endl;
-        if (temperature + incrementVal < 273.15)
+
+        if (temperature + incrementVal < -273.15)
         {
             cout << "Not possible." << endl;
             return;
         }
+
         temperature += incrementVal;
     }
 
