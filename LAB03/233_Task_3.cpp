@@ -7,7 +7,7 @@ private:
     string name;
     int accountNum;
     string accountTypeVal;
-    float balanceVal;
+    float balanceVal = 0;
 
 public:
     void customerDetails(string nameParam, int accNumParam)
