@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1728591634 source:d:\lab_codes\oop\233-cse-4302\lab05\233_task_2\main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+	<algorithm>
+	"BankAccount.h"
+
+1728015231 source:d:\lab_codes\oop\233-cse-4302\lab05\233_task_2\src\bankaccount.cpp
+	"BankAccount.h"
+	<string>
+
+1728015658 d:\lab_codes\oop\233-cse-4302\lab05\233_task_2\include\bankaccount.h
+	<string>
+

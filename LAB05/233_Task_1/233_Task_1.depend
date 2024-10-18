@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1728014031 source:d:\lab_codes\oop\233-cse-4302\lab05\233_task_1\main.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	<ctime>
+	<algorithm>
+	"Product.h"
+
+1728010942 d:\lab_codes\oop\233-cse-4302\lab05\233_task_1\include\product.h
+	<string>
+
+1728010925 source:d:\lab_codes\oop\233-cse-4302\lab05\233_task_1\src\product.cpp
+	"Product.h"
+
